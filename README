@@ -3,3 +3,7 @@
 3. configure hoprt (interface and white list ports)
 4. run hport
 5. watch connections logged to syslog
+
+
+all the other files are part of an OSSEC installation.
+hport can be intergrated with OSSEC to create distributed honey ports
