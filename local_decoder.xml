@@ -1,0 +1,10 @@
+<decoder name="hport">
+  <program_name>hport</program_name>
+</decoder>
+<decoder name="hport-alert">
+  <parent>hport</parent>
+  <!-- jan 12 12:12:12 hostname hport[1234]: 13243333.44 a connection from 10.0.0.10:54544 to port 88 -->
+  <regex offset="after_parent">\S+ a connection from (\d+.\d+.\d+.\d+):\d+ to port \d+</regex>
+  <order>srcip</order>
+</decoder>
+

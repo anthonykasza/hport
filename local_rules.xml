@@ -1,0 +1,10 @@
+<group name="hport">
+  <rule id="100069" level="0" noalert="1">
+    <decoded_as>hport</decoded_as>
+    <description>hport rule group parent</description>
+  </rule>
+  <rule id="100070" level="12">
+    <if_sid>100069</if_sid>
+    <description>hport-drop</description>
+  </rule>
+</group>

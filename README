@@ -1,0 +1,5 @@
+1. configure make_firewall.sh  (interface and white list ports)
+2. run make_firewall.sh
+3. configure hoprt (interface and white list ports)
+4. run hport
+5. watch connections logged to syslog
